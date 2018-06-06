@@ -63,8 +63,8 @@ public class MainActivity extends AppCompatActivity {
         protected String doInBackground(String... params) {
 
             //TODO: replace with your own app id and app key
-            final String app_id = "525c3f43";
-            final String app_key = "61108d7e98a68ce6ed182e2a2e2f910b";
+            final String app_id = "**********";
+            final String app_key = "***************************";
             try {
                 URL url = new URL(params[0]);
                 HttpsURLConnection urlConnection = (HttpsURLConnection) url.openConnection();
